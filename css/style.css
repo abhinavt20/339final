@@ -6,8 +6,6 @@ html, body {
   overflow-x: hidden;
 }
 
-
-
 body{
   background-image: url("../images/background3.jpeg");
 
@@ -30,7 +28,6 @@ h1{
   text-align: center;
   margin-bottom: 30px;
   margin-top: 20px;
-
 }
 
 h2{
@@ -110,6 +107,11 @@ nav a:hover, a:focus{
 .skip a:focus{
   position: absolute;
   top: 20px;
+}
+
+.pagetext {
+  background: rgba(255, 255, 255, 0.536);
+  padding: 20px;
 }
 
 /* Nav stuff */
@@ -545,10 +547,9 @@ nav a:hover, a:focus{
   .home img:focus{
     opacity: 1;
   }
+
 /* ------------- */
 
-  
-  
   .home img:nth-child(1) {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
