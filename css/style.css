@@ -142,7 +142,7 @@ nav a:hover, a:focus{
   background: #bbc9c969;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
   .navLink {
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -152,7 +152,7 @@ nav a:hover, a:focus{
   }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 1024px) {
   .navLink {
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -192,7 +192,7 @@ nav a:hover, a:focus{
 
 
 /* tablet view */
-@media only screen and (min-width: 600px) and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
 
   .gallery {
       grid-template-columns: 50% 50%;
@@ -207,7 +207,7 @@ nav a:hover, a:focus{
   
   
 /* desktop view */
-@media only screen and (min-width: 768px){ 
+@media only screen and (min-width: 1024px){ 
 
   .gallery {
       grid-template-columns: repeat(8, 9%);
@@ -316,7 +316,7 @@ nav a:hover, a:focus{
 
 
 /* tablet view */
-@media only screen and (min-width: 600px) and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
   .flex2 {
     flex-direction: row;
   }
@@ -334,7 +334,7 @@ nav a:hover, a:focus{
 }
 
 /* desktop view */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .flex {
     flex-direction: row;
   }
@@ -432,7 +432,7 @@ nav a:hover, a:focus{
 }
 
 /* tablet view */
-@media only screen and (min-width: 600px) and (max-width: 767px){
+@media only screen and (min-width: 768px) and (max-width: 1023px){
 
   .home {
     grid-template-columns: 50% 50%;
@@ -474,7 +474,7 @@ nav a:hover, a:focus{
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .home {
     grid-template-columns: 50% 50%;
     justify-content: space-evenly;
@@ -578,7 +578,7 @@ nav a:hover, a:focus{
   
   
   /* tablet view */
-  @media only screen and (min-width: 600px) and (max-width: 767px){
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
 
     .home img:nth-child(1) {
       width: 100%;
@@ -614,7 +614,7 @@ nav a:hover, a:focus{
   
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 1024px) {
     .home {
       width: 75%;
     }
